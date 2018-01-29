@@ -1,0 +1,262 @@
+{
+  "keys": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/config/config.default.js",
+  "logger": {
+    "level": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/config/config.default.js",
+    "consoleLevel": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/config/config.default.js",
+    "dir": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "env": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "name": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "version": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "description": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "main": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "license": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "date-fns": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "mysql": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "raven": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "reflect-metadata": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "sharp": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "superagent": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "wechat-crypto": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/egg-mock": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "@types/ioredis": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "@types/mocha": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "@types/raven": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "localtunnel": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "rimraf": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "source-map-support": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "url": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "port": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/node_modules/egg/config/config.default.js"
+  }
+}
