@@ -10,15 +10,39 @@ export default class Menu extends Service {
         _user.password = user.password;
         _user.name = '未设置昵称';
         _user.phone = user.phone;
-        _user.id = 1;
-        //await _user.save();
-        return await _user.save();
+        const result = await User.find({phone: user.phone});
+        if (result.length === 0) {
+            await _user.save();
+            return {
+                code: 0,
+                msg: '',
+                data: {}
+            }
+        } else {
+            return {
+                code: 1,
+                msg: '该用户已经存在',
+                data: {}
+            }
+        }
     }
 
 
     async login(user: User) {
-
-        return '';
+        const result = await User.find({phone: user.phone, password: user.password});
+        if (result.length === 1) {
+            return {
+                code: 0,
+                msg: '该用户已经存在',
+                data: {}
+            }
+        } else {
+            return {
+                code: 1,
+                msg: '该用户不存在',
+                data: {}
+            }
+        }
     }
 
 }

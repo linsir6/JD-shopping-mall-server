@@ -1,14 +1,1 @@
-[
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/user/register",
-    "regexp": "/^\\/user\\/register(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  }
-]
+[]

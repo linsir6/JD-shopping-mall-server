@@ -21,6 +21,7 @@ export default (app: Application) => {
      * 用户相关
      */
     app.post('/user/register', userController.register);
+    app.post('/user/login', userController.login);
 
 
 };
