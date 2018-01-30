@@ -10,20 +10,8 @@
       "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
-      "csrf": {
-        "enable": true,
-        "useSession": false,
-        "ignoreJSON": false,
-        "cookieName": "csrfToken",
-        "sessionName": "csrfToken",
-        "headerName": "x-csrf-token",
-        "bodyName": "_csrf",
-        "queryName": "_csrf"
-      },
-      "xframe": {
-        "enable": true,
-        "value": "SAMEORIGIN"
-      },
+      "csrf": false,
+      "xframe": false,
       "hsts": {
         "enable": false,
         "maxAge": 31536000,
@@ -151,7 +139,8 @@
         "sharp": "^0.18.4",
         "superagent": "3.8.2",
         "tslib": "1.8.1",
-        "wechat-crypto": "0.0.2"
+        "wechat-crypto": "0.0.2",
+        "typeorm": "^0.1.11"
       },
       "devDependencies": {
         "@types/egg-mock": "3.0.3",
@@ -269,6 +258,20 @@
     },
     "clusterClient": {
       "responseTimeout": 60000
+    },
+    "typeorm": {
+      "type": "mysql",
+      "host": "127.0.0.1",
+      "database": "JD-shopping-mall-DB",
+      "username": "root",
+      "password": "<String len: 4>",
+      "logging": true,
+      "charset": "UTF8MB4_UNICODE_CI",
+      "synchronize": true,
+      "dropSchema": true,
+      "entities": [
+        "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/app/model/*.js"
+      ]
     },
     "coreMiddlewares": [
       "meta",
