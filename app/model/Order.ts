@@ -6,13 +6,13 @@ export default class Order extends BaseEntity {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column()
+    @Column("int")
     userId: number;
 
-    @Column()
+    @Column("int")
     total: number;
 
-    @Column()
+    @Column("varchar")
     describe: String;
 
 

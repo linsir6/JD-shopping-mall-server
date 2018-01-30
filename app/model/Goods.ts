@@ -6,16 +6,16 @@ export default class Goods extends BaseEntity {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column()
+    @Column("varchar")
     name: String;
 
-    @Column()
+    @Column("int")
     price: number;
 
-    @Column()
+    @Column("int")
     count: number;
 
-    @Column()
+    @Column("varchar")
     describe: String;
 
 

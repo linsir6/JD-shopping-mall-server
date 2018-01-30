@@ -1,18 +1,18 @@
 import {Column, Entity, PrimaryGeneratedColumn, BaseEntity} from 'typeorm';
 
 @Entity()
-export default class User extends BaseEntity {
+export default class Comment extends BaseEntity {
 
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column()
+    @Column("varchar")
     name: String;
 
-    @Column()
+    @Column("varchar")
     phone: String;
 
-    @Column()
+    @Column("varchar")
     password: String;
 
 
