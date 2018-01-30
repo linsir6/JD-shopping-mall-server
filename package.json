@@ -21,7 +21,8 @@
     "sharp": "^0.18.4",
     "superagent": "3.8.2",
     "tslib": "1.8.1",
-    "wechat-crypto": "0.0.2"
+    "wechat-crypto": "0.0.2",
+    "typeorm": "^0.1.11"
   },
   "devDependencies": {
     "@types/egg-mock": "3.0.3",
