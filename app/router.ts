@@ -18,9 +18,9 @@ export default (app: Application) => {
     } = app;
 
     /**
-     * 关注回复相关
+     * 用户相关
      */
-    app.get('/login', userController.login);
+    app.post('/user/register', userController.register);
 
 
 };
