@@ -15,6 +15,9 @@ export default class Goods extends BaseEntity {
     @Column("int")
     count: number;
 
+    @Column("int")
+    type: number;
+
     @Column("varchar")
     describe: String;
 
