@@ -6,8 +6,7 @@ export default class GoodsController extends Controller {
 
 
     async homeIndex(ctx: Context) {
-        const user = ctx.request.body as User;
-        ctx.body = '';
+        ctx.body = await ctx.service.goodsService.homeIndex();
         ctx.status = 200;
     }
 
@@ -17,32 +16,30 @@ export default class GoodsController extends Controller {
         ctx.status = 200;
     }
 
-    async sortIndex(ctx: Context){
-
-
+    async sortIndex(ctx: Context) {
+        ctx.body = await ctx.service.goodsService.sortIndex();
+        ctx.status = 200;
     }
 
-    async shoppingCarIndex(){
-
-
+    async shoppingCarIndex(ctx: Context) {
+        ctx.body = await ctx.service.goodsService.shoppingCarIndex(ctx.request.body);
+        ctx.status = 200;
     }
 
-    async shoppingCarAdd(){
-
-
+    async shoppingCarAdd(ctx: Context) {
+        ctx.body = await ctx.service.goodsService.shoppingCarAdd(ctx.request.body);
+        ctx.status = 200;
     }
 
-    async shoppingCarDelete(){
-
-
+    async shoppingCarDelete(ctx: Context) {
+        ctx.body = await ctx.service.goodsService.shoppingCarDelete(ctx.request.body);
+        ctx.status = 200;
     }
 
-    async shoppingCarPay(){
-
-
+    async shoppingCarPay(ctx: Context) {
+        ctx.body = await ctx.service.goodsService.shoppingCarPay(ctx.request.body);
+        ctx.status = 200;
     }
-
-
 
 
 }
