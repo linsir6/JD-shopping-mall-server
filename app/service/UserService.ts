@@ -2,7 +2,7 @@ import {Service} from 'egg';
 import User from "../model/User";
 import {createConnection} from "typeorm";
 
-export default class Menu extends Service {
+export default class UserService extends Service {
 
 
     async register(user: User) {
