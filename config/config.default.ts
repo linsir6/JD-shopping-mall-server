@@ -29,8 +29,8 @@ export default (appInfo: EggAppConfig) => {
         password: 'root',
         logging: true,
         charset: 'UTF8MB4_UNICODE_CI',
-        synchronize: true,
-        dropSchema: true,
+        synchronize: false,
+        dropSchema: false,
         entities: [
             join(appInfo.baseDir, 'app/model/*.js')
         ],
