@@ -15,6 +15,6 @@ export default class ShoppingCar extends BaseEntity {
     @Column("int")
     count: number;
 
-
+    goodsDetails: object;
 
 }

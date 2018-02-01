@@ -28,7 +28,7 @@ export default (app: Application) => {
     app.get('/home/index', goodsController.homeIndex);
     app.get('/goods/details', goodsController.goodsDetails);
     app.get('/sort/index', goodsController.sortIndex);
-    app.post('/shopping/index', goodsController.shoppingCarIndex);
+    app.get('/shopping/index', goodsController.shoppingCarIndex);
     app.post('/shopping/add', goodsController.shoppingCarAdd);
     app.post('/shopping/delete', goodsController.shoppingCarDelete);
     app.post('/shopping/pay', goodsController.shoppingCarPay);

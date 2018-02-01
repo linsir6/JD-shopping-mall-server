@@ -21,7 +21,7 @@ export default class GoodsController extends Controller {
     }
 
     async shoppingCarIndex(ctx: Context) {
-        ctx.body = await ctx.service.goodsService.shoppingCarIndex(ctx.request.body);
+        ctx.body = await ctx.service.goodsService.shoppingCarIndex(ctx.request.query.userId);
         ctx.status = 200;
     }
 

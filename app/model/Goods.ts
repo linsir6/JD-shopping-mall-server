@@ -21,5 +21,4 @@ export default class Goods extends BaseEntity {
     @Column("varchar")
     describe: String;
 
-
 }

@@ -181,24 +181,31 @@ query: ?goodId=2
 
 }
 ```
-
+query : ?userId=1
 ```
 出参:
 {
-    "code" : 0,
-    "msg" : "success",
-    "data" : {
-      "goods" : [
-          {
-            "name" : "xxx",
-            "price" : 100,
-            "count" : 100,
-            "describe" : "",
-            "type" : 1
+    "code": 0,
+    "msg": "",
+    "data": {
+        "goods": [
+            {
+                "id": 1,
+                "userId": 1,
+                "goodsId": 1,
+                "count": 2,
+                "goodsDetails": {
+                    "id": 1,
+                    "name": "书1",
+                    "price": 100,
+                    "count": 199,
+                    "type": 1,
+                    "describe": "书"
+                }
             },
-          {},
-          {}    
-      ]
+            {},
+            {}
+        ]
     }
 }
 ```

@@ -47,15 +47,19 @@ export default class GoodsService extends Service {
     }
 
 
-    async shoppingCarIndex(user: User) {
-        const allGoods = await ShoppingCar.find({userId: user.id})
-        return {
-            code: 0,
-            msg: '',
-            data: {goods: allGoods}
-        };
-    }
+    async shoppingCarIndex(id: number) {
+        const allGoods = await ShoppingCar.find({userId: id});
+        for (const i in allGoods) {
+            const goodsDetails = await Goods.findOne({id: allGoods[i].goodsId});
+            allGoods[i].goodsDetails = goodsDetails;
 
+            return {
+                code: 0,
+                msg: '',
+                data: {goods: allGoods}
+            };
+        }
+    }
 
     async shoppingCarAdd(car: ShoppingCar) {
         const result = await ShoppingCar.find({userId: car.userId, goodsId: car.goodsId});
