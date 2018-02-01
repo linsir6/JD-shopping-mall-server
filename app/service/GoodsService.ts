@@ -38,7 +38,7 @@ export default class GoodsService extends Service {
     }
 
     async sortIndex() {
-        const allGoods = await User.find({});
+        const allGoods = await Goods.find({});
         return {
             code: 0,
             msg: '',
