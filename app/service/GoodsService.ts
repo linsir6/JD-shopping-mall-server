@@ -103,7 +103,7 @@ export default class GoodsService extends Service {
         for (const i in car) {
             const goods = await Goods.findOne({id: car[i].goodsId});
             total += car[i].count * goods.price;
-            _describe.concat({
+            _describe.push({
                 goods: goods,
                 count: car[i].count
             });
@@ -115,7 +115,11 @@ export default class GoodsService extends Service {
         order.userId = user.id;
         order.describe = JSON.stringify(_describe);
         await order.save();
-
+        return {
+            code: 0,
+            msg: '',
+            data: {}
+        }
     }
 
 

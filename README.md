@@ -272,7 +272,7 @@ query : ?userId=1
 ----
 
 
-9. 结算商品
+9. 结算购物车
 
 ``method`` : ``post``
 
@@ -281,18 +281,7 @@ query : ?userId=1
 ```
 入参:
 {
-  "goods": [
-    {
-      "name" : "xxx",
-      "price" : 100,
-      "count" : 100,
-      "describe" : "",
-      "type" : 1 //1.添加 2.删除
-    },
-    {},
-    {}    
-  ],
-  "total" : 100.0
+    "id" : 1
 }
 ```
 
