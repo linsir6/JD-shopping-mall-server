@@ -84,11 +84,13 @@
     "data" : {
       "goods" : [
           {
-            "name" : "xxx",
-            "price" : 100,
-            "count" : 100,
-            "describe" : ""
-            },
+             "id": 1,
+             "name": "书1",
+             "price": 100,
+             "count": 199,
+             "type": 1,
+             "describe": "书"
+          },
           {},
           {}    
       ]
