@@ -299,8 +299,8 @@
       "password": "<String len: 4>",
       "logging": true,
       "charset": "UTF8MB4_UNICODE_CI",
-      "synchronize": true,
-      "dropSchema": true,
+      "synchronize": false,
+      "dropSchema": false,
       "entities": [
         "/Users/mac/WorkSpace/58qf/JD-shopping-mall-server/app/model/*.js"
       ]

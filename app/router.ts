@@ -25,7 +25,7 @@ export default (app: Application) => {
      */
     app.post('/user/register', userController.register);
     app.post('/user/login', userController.login);
-    app.post('/home/index', goodsController.homeIndex);
+    app.get('/home/index', goodsController.homeIndex);
     app.post('/goods/details', goodsController.goodsDetails);
     app.post('/sort/index', goodsController.sortIndex);
     app.post('/shopping/index', goodsController.shoppingCarIndex);
