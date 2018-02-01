@@ -104,28 +104,29 @@
 
 ``method`` : ``get``
 
-``url`` : ``/goods/detail``
+``url`` : ``/goods/details`
 
 ```
 入参:
-{
-  goodsId : 1111111111
-}
+
+query: ?goodId=2
+
 ```
 
 ```
 出参:
 {
-    "code" : 0,
-    "msg" : "success",
-    "data" : {
-      "details" :
-          {
-            "name" : "xxx",
-            "price" : 100,
-            "count" : 100,
-            "describe" : ""
-          }
+    "code": 0,
+    "msg": "",
+    "data": {
+        "details": {
+            "id": 2,
+            "name": "书2",
+            "price": 100,
+            "count": 199,
+            "type": 1,
+            "describe": "书"
+        }
     }
 }
 ```

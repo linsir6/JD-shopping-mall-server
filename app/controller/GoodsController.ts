@@ -11,8 +11,7 @@ export default class GoodsController extends Controller {
     }
 
     async goodsDetails(ctx: Context) {
-        const user = ctx.request.body as User;
-        ctx.body = '';
+        ctx.body = await ctx.service.goodsService.goodsDetails(ctx.request.query.goodsId);
         ctx.status = 200;
     }
 

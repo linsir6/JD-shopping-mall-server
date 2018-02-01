@@ -19,7 +19,7 @@ export default class GoodsService extends Service {
 
 
     async goodsDetails(id: number) {
-        const result = await User.findOne({id: id});
+        const result = await Goods.findOne({id: id});
         if (result) {
             return {
                 code: 0,
