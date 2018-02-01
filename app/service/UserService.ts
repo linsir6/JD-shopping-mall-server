@@ -33,7 +33,7 @@ export default class UserService extends Service {
         if (result.length === 1) {
             return {
                 code: 0,
-                msg: '该用户已经存在',
+                msg: '登录成功',
                 data: {}
             }
         } else {
